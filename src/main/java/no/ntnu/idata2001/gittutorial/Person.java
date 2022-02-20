@@ -1,17 +1,17 @@
 package no.ntnu.idata2001.gittutorial;
 
 public class Person {
-  private String fullName;
+  private String fullFamilyName;
   private int age;
   private String eMail;
 
   public Person(String name, int age) {
-    this.fullName = name;
+    this.fullFamilyName = name;
     this.age = age;
   }
 
-  public String getFullName() {
-    return this.fullName;
+  public String getFullFamilyName() {
+    return this.fullFamilyName;
   }
 
   public int getAge() {

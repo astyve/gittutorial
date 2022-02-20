@@ -18,4 +18,8 @@ public class Person {
   public int getAge() {
     return this.age;
   }
+
+  public String getPosition() {
+    return position;
+  }
 }
